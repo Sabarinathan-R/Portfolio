@@ -31,5 +31,9 @@
     "eslint-plugin-react-refresh": "^0.4.9",
     "globals": "^15.9.0",
     "vite": "^5.4.1"
-  }
+  },
+  "description": "💼 Sabarinathan R - Flutter Developer Portfolio\r Welcome to my portfolio! I'm Sabarinathan R, a passionate Flutter developer with 10 months of professional experience in building cross-platform mobile applications that deliver seamless user experiences. I specialize in creating scalable, efficient, and visually appealing apps using Flutter and Dart.",
+  "main": "eslint.config.js",
+  "author": "",
+  "license": "ISC"
 }
