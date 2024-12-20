@@ -26,7 +26,7 @@ const navItems = [
   },
   {
     id: "work",
-    name: "Portfolio",
+    name: "Work",
     icon: "uil uil-scenery",
   },
   {
