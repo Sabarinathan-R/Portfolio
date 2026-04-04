@@ -10,7 +10,18 @@ const ServiceItem = ({ title, description, icon }) => {
         </div>
       </div>
       <h3 className="services__title">{title}</h3>
-      <p className="services__description">{description}</p>
+      {Array.isArray(description) ? (
+        <div className="services__description">
+          <p>{description[0]}</p>
+          <ul className="services__list">
+            {description.slice(1).map((item, index) => (
+              <li key={index}>• {item}</li>
+            ))}
+          </ul>
+        </div>
+      ) : (
+        <p className="services__description">{description}</p>
+      )}
     </div>
   );
 };

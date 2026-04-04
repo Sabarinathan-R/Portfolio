@@ -57,6 +57,16 @@
   font-size: var(--tiny-font-size);
 }
 
+.services__list {
+  text-align: left;
+  margin-top: 0.5rem;
+  line-height: 1.4;
+}
+
+.services__list li {
+  margin-bottom: 0.25rem;
+}
+
 .dot {
   width: 13px;
   height: 13px;

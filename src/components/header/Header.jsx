@@ -6,7 +6,7 @@ import DarkMode from "../DarkMode/DarkMode";
 const navItems = [
   {
     id: "home",
-    name: "Welcomeeee",
+    name: "Welcome",
     icon: "uil uil-estate",
   },
   {

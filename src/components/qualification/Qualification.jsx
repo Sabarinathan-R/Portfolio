@@ -49,7 +49,7 @@ const Qualification = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
-                B.Tech in IT.
+                  B.Tech IT
                 </h3>
                 <span className="qualification__subtitle">
                   Park College of Engineering and Technology - Coimbatore

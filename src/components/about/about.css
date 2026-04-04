@@ -1,6 +1,6 @@
 .about__container {
   grid-template-columns: repeat(2, 1fr);
-  align-items: center;
+  align-items: flex-start;
   column-gap: 4rem;
 }
 
@@ -10,7 +10,7 @@
   border-radius: 1.5rem;
   justify-self: center;
   object-fit: cover;
-  object-position: center;
+  object-position: top;
 }
 
 
