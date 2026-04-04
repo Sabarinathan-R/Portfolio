@@ -1,7 +1,7 @@
 .services__container {
   grid-template-columns: repeat(3, 270px);
   justify-content: center;
-  gap: 1.875rem;
+  gap: 1.5rem;
 }
 
 .services__content {
@@ -10,6 +10,12 @@
   padding: 2.5rem 1.25rem 1.875rem;
   text-align: center;
   border-radius: 1.25rem;
+  transition: .3s;
+}
+
+.services__content:hover {
+  transform: translateY(-.25rem);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .icon__box {
@@ -43,13 +49,8 @@
 }
 
 @keyframes service-dot {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(1turn);
-  }
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(1turn); }
 }
 
 .services__description {
@@ -83,24 +84,27 @@
   text-align: center;
 }
 
+/* Breakpoints */
 @media screen and (max-width: 992px) {
   .services__container {
-    grid-template-columns: repeat(3, 218px);
+    grid-template-columns: repeat(2, 270px);
   }
 }
 
-/* For medium devices */
 @media screen and (max-width: 768px) {
   .services__container {
     grid-template-columns: repeat(2, 1fr);
   }
-
-  /* .services__content {
-    padding: 1.5rem 0.5rem 1.25rem 1.5rem;
-  } */
 }
 
-/* For small devices */
+@media screen and (max-width: 576px) {
+  .services__container {
+    grid-template-columns: 1fr;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+}
+
 @media screen and (max-width: 350px) {
   .services__container {
     grid-template-columns: 1fr;
