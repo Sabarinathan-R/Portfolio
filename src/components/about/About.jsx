@@ -12,7 +12,7 @@ const About = () => {
         <img src={work2} alt="" className="about__img" />
         <div className="about__data">
           <p className="about__description">
-            I’m a Flutter Developer with 2+ years of experience, having built and deployed 25+ mobile applications across multiple domains. I specialize in Flutter, API integration, state management, and app deployment. I’m passionate about building scalable, real-world applications and continuously improving my skills.
+            I’m a Flutter Developer with 2.5+ years of experience, having built and deployed 25+ mobile applications across multiple domains. I specialize in Flutter, API integration, state management, and app deployment. I’m passionate about building scalable, real-world applications and continuously improving my skills.
           </p>
           <a download="Sabarinathan_R Resume.pdf" href={resume} className="button button--flex">
             Download CV
